@@ -89,14 +89,11 @@ main {
 }
 
 .about i {
-    color: green;
+    color: #008000;
 }
 
 /* My Plans section */
-.my-plans {
-    margin-top: 130px;
 
-}
 
 .my-plans {
     margin-top: 130px;
@@ -107,9 +104,9 @@ main {
 }
 
 .plane-title {
+    font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
 
 }
 
@@ -145,9 +142,9 @@ main {
 .gradient-title {
     position: absolute;
     top: 30px;
-    left: 20px;
+    left: 100px;
     font-size: 30px;
-    width: 450px;
+    width: 400px;
     margin-right: auto;
     text-align: left;
 }
@@ -155,15 +152,15 @@ main {
 .gradient-button {
     position: absolute;
     top: 150px;
-    left: 25px;
+    left: 100px;
 }
 
 .gradient-button-style {
-    background-color: white;
+    background-color: #ffffff;
     border: 0;
-    color: tomato;
+    color: #ff6347;
     padding: 12px 22px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 20px;
     margin-top: auto;
     border-radius: 5px;
@@ -173,8 +170,6 @@ main {
 /* footer section */
 
 .footer {
-
-
 
     margin: 0 auto;
     background-color: #000000;
@@ -194,7 +189,7 @@ main {
 }
 
 .button-subscribe {
-    background-color: white;
+    background-color: #ffffff;
     border: 0;
     color: #ff6347;
     padding: 10px 15px;
@@ -214,11 +209,15 @@ main {
 
 .future-title {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .details {
-    margin-top: 20px;
+    margin-top: 16px;
+}
+
+.details-img {
+    margin-top: 32px;
 }
 
 .footer-title2 {
@@ -229,7 +228,7 @@ main {
 input {
     height: 45px;
     width: 300px;
-    background-color: black;
+    background-color: #000000;
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: 5px;
 }
